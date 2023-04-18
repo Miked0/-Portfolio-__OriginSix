@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{ 
+
+
+
+    /* PALETA COLOR*/
+--darkGrey: #0F241D;
+--grey: #69B99D;
+--lightGrey: #CCF4E6;
+--backgroundPrimary:  #F9F9F9;
+--backgroundSecondary: #FFFFFF;
+--gradient: linear-gradient(270deg, #69B99D 0%, rgba(204, 244, 230, 0.34) 100%);
+
+/*font-size 10px = 1rem */
+font-size: 62.5%;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--darkGrey);
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.darkGrey{
+    color: var(--darkGrey);
+}
+
+.grey{
+    color: var(--grey) !important;
+}
+
+.lightGrey{ color: var(--lightGrey); }
+
+.bg-1{ 
+    color: var(--backgroundPrimary);
+}
+
+.bg-2{
+    color: var(--backgroundSecondary);
+}
+
+
+.font1{
+    font-family: "Poppins", sans-serif;
+}
+
+.font2{
+    font-family: "DM-Sans", sans-serif;
+}
